@@ -179,4 +179,10 @@ h2.client-header {
     .header-text {
         text-align: center;
     }
+    .navbar-brand {
+        padding: 15px;
+    }
+    .navbar-toggle {
+        margin-top: 18px;
+    }
 }
