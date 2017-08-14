@@ -177,6 +177,74 @@ h2.product-header {
 h2.client-header {
     font-size: 1.5em;
 }
+
+.section {
+    padding: 75px 0px;
+}
+.section.section-alt {
+    background-color: #F1F1F1;
+}
+.s-title {
+    margin-bottom: 50px;
+    text-align: center;
+}
+.mi-item {
+    position: relative;
+    border-radius: 2px;
+    padding: 20px 20px 20px 75px;
+}
+.mi-item i {
+    width: 53px;
+    height: 53px;
+    border-radius: 50%;
+    position: absolute;
+    top: 20px;
+    left: 0;
+    background-position: center;
+}
+.mi-item h3 {
+    font-size: 18px;
+    color: #2e353b;
+    margin-top: 0;
+}
+.mi-item p {
+    line-height: 160%;
+}
+.mi-item i {
+    background-repeat: no-repeat;
+}
+
+.mii-xcode {
+    background-color: #FF8F00;
+    background-size: 25px 25px;
+    background-image: url(../images/code.png);
+}
+.mii-non-invasive {
+    background-color: #EF5350;
+    background-size: auto 25px;
+    background-image: url(../images/non-invasive.png);
+}
+.mii-chain {
+    background-color: #ca0739;
+    background-size: auto 25px;
+    background-image: url(../images/chain.png);
+}
+.mii-change {
+    background-color: #2196F3;
+    background-image: url(../images/change.png);
+}
+.mii-metric {
+    background-color: #607D8B;
+    background-size: auto 25px;
+    background-image: url(../images/metric.png);
+}
+.mii-golang {
+    background-color: #00BCD4;
+    background-image: url(../images/go.png);
+}
+
+
+
 @media (max-width: 768px) {
     .header-text {
         text-align: center;
