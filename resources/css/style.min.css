@@ -187,4 +187,8 @@ h2.client-header {
     .navbar-toggle {
         margin-top: 18px;
     }
+    .container-bg{
+        background-color: #272C37;
+        background-image: none;
+    }
 }
