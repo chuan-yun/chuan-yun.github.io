@@ -1,7 +1,7 @@
 html, body {
     overflow-x: hidden;
     -webkit-font-smoothing: antialiased;
-    font-family:"Helvetica Neue", "Lucida Grande", Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace;
+    font-family:Roboto,"Helvetica Neue", "Lucida Grande", Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace;
 }
 h2 {
     font-size: 2.6em;
@@ -73,7 +73,8 @@ strong, b {
     background-size: cover;
     max-width: 100%;
     max-height: 100%;
-    box-shadow: 0 5px 20px 0 rgba(0, 0, 0, .2);
+    /*box-shadow: 0 5px 20px 0 rgba(0, 0, 0, .2);*/
+    position: relative;
 }
 .navbar-default {
     margin-bottom: 0;
@@ -82,7 +83,37 @@ strong, b {
 .transparent {
     background: rgba(0, 0, 0, 0.1);
     background-size: cover;
-    padding: 30px 0px 60px 0px;
+    padding: 40px 0px 100px 0px;
+}
+.s-bright-arrow {
+    position: absolute;
+    bottom: 0;
+    height: 25px;
+    width: 100%;
+    left: 0;
+    z-index: 100;
+}
+#header-container.s-bg-light-text .nav-item a {
+    color: #fff;
+    text-decoration: none;
+}
+.s-bright-arrow .a1, .s-bright-arrow .a2 {
+    position: absolute;
+    bottom: 0;
+    width: 50%;
+    height: 0;
+    box-sizing: border-box;
+    border: 25px solid transparent;
+    border-top: 0;
+    border-color: #F1F1F1;
+}
+.s-bright-arrow .a1 {
+    left: 0;
+    border-right-color: transparent !important;
+}
+.s-bright-arrow .a2 {
+    right: 0;
+    border-left-color: transparent !important;
 }
 .center-heading {
     text-align: center;
